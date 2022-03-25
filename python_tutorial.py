@@ -101,7 +101,7 @@ def again(nice,mean,name):
             stop = False
             reset(nice,mean,name)
         if choice == "n":
-            print("\nOh, so sad, bye!")
+            print("\nOh, so sad, bye! ")
             stop = False
             quit()
         else:

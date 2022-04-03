@@ -19,6 +19,12 @@ class Employee(User):
     department = "General"
     pin_number = "3980"
 
+#Child Class Manager
+class Manager(User):
+    base_pay = 25.00
+    department = "General"
+    pin_number = "3980"
+    
 #This is the same method in the parent class "User".
 #The difference is that, instead of using entry_password, we're using entry_pin.
 
@@ -31,22 +37,7 @@ class Employee(User):
         else:
             print("The pin or email is incorrect")
 
-class Person:
-  def __init__(self, fname, lname):
-    self.firstname = fname
-    self.lastname = lname
 
-  def printname(self):
-    print(self.firstname, self.lastname)
-
-#Use the Person class to create an object, and then execute the printname method:
-
-x = Person("John", "Doe")
-x.printname()
-
-#Child Class Student 
-class Student(Person):
-  pass
 
 
 #The following code invokes the methods inside each class for User and Employee.

@@ -31,6 +31,24 @@ class Employee(User):
         else:
             print("The pin or email is incorrect")
 
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("John", "Doe")
+x.printname()
+
+#Child Class Student 
+class Student(Person):
+  pass
+
+
 #The following code invokes the methods inside each class for User and Employee.
 
 customer = User()

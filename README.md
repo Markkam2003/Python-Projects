@@ -8,6 +8,7 @@ These are basic projects written in Python. They use various models such as tkin
 
 This project functions as a phonebook for a user. It saves a contact's name, phone number and email address in a database and allows the user to update and delete previously stored entries.
 
-# file_transfer_assignment
+# Web Page Generator
+
 
 

@@ -4,5 +4,4 @@ These are basic projects written in Python. They use various models such as tkin
 
 # Projects:
 
-Phonebook
-Checkfiles Gui
+project_phonebook

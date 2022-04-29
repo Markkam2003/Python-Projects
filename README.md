@@ -4,6 +4,10 @@ These are basic projects written in Python. They use various models such as tkin
 
 # Projects:
 
-project_phonebook
+# project_phonebook
 
-https://github.com/Markkam2003/Python-Projects/tree/main/project_phonebook
+This project functions as a phonebook for a user. It saves a contact's name, phone number and email address in a database and allows the user to update and delete previously stored entries.
+
+# file_transfer_assignment
+
+
